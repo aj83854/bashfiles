@@ -39,7 +39,6 @@ then
   brew install gnu-tar --with-default-names
   brew install gnu-indent --with-default-names
   brew install gnu-which --with-default-names
-  brew install gnu-grep --with-default-names
 
   # Installs GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
   echo "Installing GNU findutils..."
@@ -56,7 +55,6 @@ then
       automake
       boot2docker
       ffmpeg
-      gettext
       gifsicle
       git
       graphviz
@@ -96,7 +94,7 @@ then
   echo "Installing extra fonts..."
   brew tap caskroom/fonts
   FONTS=(
-      font-robotomono
+      font-roboto-mono
   )
   brew cask install ${FONTS[@]}
 
