@@ -33,7 +33,6 @@ then
 
   # Installs GNU utilities
   echo "Installing GNU coreutils..."
-  brew tap homebrew/dupes
   brew install coreutils
   brew install gnu-sed --with-default-names
   brew install gnu-tar --with-default-names
