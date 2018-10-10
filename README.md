@@ -43,7 +43,8 @@ chmod u+x bootstrap_osx.sh
 
 ...
 
-# Path to put in .bash_profile (or .bashrc) for shell scripts:
+# Path to put in .bash_profile (or .bashrc) for shell scripts.
+# Replace <YOUR_USER_NAME> with the name of your user account (essentially it's $HOME/bin)
 PATH="/Users/<YOUR_USER_NAME>/bin:${PATH}"
 export PATH
 ~~~
@@ -53,7 +54,7 @@ export PATH
 bootstrap_osx.sh
 ~~~
 
-The script will first you ask if you've completed step 0 and if you are ready to continue. \
+The script will first ask you if you've completed step 0 and if you're ready to continue. \
 Enter `y` to run the script. Then, sit back and watch as your familiar Mac environment is quickly downloaded, installed and setup for you. **Easy!**
 _______________________________________________
 _______________________________________________
