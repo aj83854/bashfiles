@@ -1,23 +1,25 @@
 MacOS / OS X scripts
 ================
 
-### A repository of (*potentially*) useful OSX & MacOS automation / utility scripts.
+A repository of (*potentially*) useful OSX & MacOS automation / utility scripts.
 
 _______________________________________________
 
-## **bootstrap_osx.sh** - *Quicksetup script that installs homebrew w/cask, vim8.x, python3 with pipenv, npm, and some minor OS configs.*
-This is intended for Mac OS X 10.9 and above, but, it should still work for versions 10.8 and below assuming you know how to handle installing gcc instead.
+# bootstrap_osx.sh
+**`bootstrap_osx.sh` is a quick-setup script that downloads and installs homebrew w/cask, vim8.x, python3 with pipenv, npm, and some minor OS configs when executed. It is useful for quickly configuring a new OS X environment with most of the essentials required for developers.**
 
-*- - - Feel free to modify the script to your liking to include or remove components/packages to fit your needs.*
+*- - Feel free to modify the script to your liking to include or remove components/packages to fit your needs.*
+
+This is intended for Mac OS X 10.9 and above, but, it should still work for versions 10.8 and below assuming you know how to handle installing gcc instead.
 
 **NOTE**: *Before running, **make sure you install the  Xcode suite OR the command line tools first!** This should be the only thing you need to do on a fresh Mac or OSX image before cloning/running this script.*
 
 **0**. *If you need the full Xcode suite, install that first from the Mac App Store.* Otherwise, just **install the command line tools**:
 
-- For OSX 10.9 and newer: simply run `xcode-select --install` from the terminal to install the required command line tools.
+- For OSX 10.9 and newer: simply run `xcode-select --install` from the terminal to install the required command line tools. You can also simply type `git` to see if Apple's git is installed; if it is not, you will then be prompted to install the command line tools.
 - (*Not recommended*) For OSX 10.8 and older: Install gcc with homebrew by using the apple-gcc42 package from homebrew/dupes
 
-**1**. In your terminal app, and download this repo:
+**1**. Start a new terminal session, type the following to download this repo:
 
 ~~~
 git clone https://github.com/aj83854/macos-bashfiles.git
@@ -56,5 +58,7 @@ bootstrap_osx.sh
 
 The script will first ask you if you've completed step 0 and if you're ready to continue. \
 Enter `y` to run the script. Then, sit back and watch as your familiar Mac environment is quickly downloaded, installed and setup for you. **Easy!**
+
+*Currently, if any input other than `y` or `Y` is provided, the script will terminate.*
 _______________________________________________
 _______________________________________________
