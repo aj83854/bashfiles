@@ -1,7 +1,7 @@
-Mac bash scripts
+MacOS / OS X scripts
 ================
 
-### A repository of (*potentially*) useful OSX & MacOS bash scripts.
+### A repository of (*potentially*) useful OSX & MacOS automation / utility scripts.
 
 _______________________________________________
 
